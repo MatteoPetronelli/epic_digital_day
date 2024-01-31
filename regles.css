@@ -9,16 +9,37 @@ body {
   justify-content: left;
   border-radius: 0% 100% 0% 100% / 86% 15% 85% 14%;
   background-color: #d4a25f;
-  max-height: 600px;
+  max-height: 800px;
   font-size: 20px;
   padding: 5%;
   gap: 20px;
 }
 
+img{
+  height: 400px;
+  width: 330px;
+}
+
 .img {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
 }
-p {
-  font-size: 30px;
+
+p {font-size: 30px;}
+
+@media screen and (max-width: 1465px) {
+  img{
+    height: 330px;
+    width: 275px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img{
+    height: 220px;
+    width: 185px;
+  }
 }

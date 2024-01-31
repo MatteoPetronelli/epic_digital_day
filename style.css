@@ -128,8 +128,19 @@ img {
   height: 25%;
   width: 25%;
 }
+#chasseuse{
+  height: 10%;
+  width: 10%;
+  margin-right: 10px;
+}
 
-#flip {
+#mage{
+  height: 15%;
+  width: 15%;
+  margin-left: 10px;
+}
+
+.flip {
   transform: scaleX(-1);
 }
 

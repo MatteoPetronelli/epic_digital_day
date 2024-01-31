@@ -1,0 +1,13 @@
+@import url(style.css);
+body {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  background-color: #d4a25f;
+  border-radius: 35% 0% 35% 35% / 35% 35% 35% 0%;
+  font-size: 30px;
+  padding: 5%;
+}

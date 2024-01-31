@@ -14,6 +14,11 @@ body {
   padding: 5%;
   gap: 20px;
 }
+
+.img {
+  display: flex;
+  flex-direction: row;
+}
 p {
   font-size: 30px;
 }

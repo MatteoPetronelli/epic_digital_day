@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: antiquewhite;
+  background-image: url(images/main/fond.png);
+  background-size: 100%;
   overflow: hidden;
 }
 
@@ -120,8 +121,7 @@ h1 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 10%;
 }
 
 #chasseuse{
@@ -176,7 +176,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-weight: 400;
+  font-weight: 800;
   gap: 10%;
 }
 

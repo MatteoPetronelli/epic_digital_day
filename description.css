@@ -1,5 +1,7 @@
 @import url(style.css);
 body {
+  background-image: none;
+  background-color: antiquewhite;
   overflow: scroll;
   overflow-x: hidden;
 }

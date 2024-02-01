@@ -1,0 +1,20 @@
+@import url(style.css);
+
+body {
+  background-image: none;
+  background-color: antiquewhite;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.structure{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  border-radius: 0% 100% 0% 100% / 86% 15% 85% 14%;
+  background-color: #d4a25f;
+  max-height: 800px;
+  font-size: 20px;
+  padding: 5%;
+  gap: 20px;
+}
